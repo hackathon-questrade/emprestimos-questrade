@@ -1,4 +1,8 @@
+'use client'
+
 import { Providers } from '@/app/providers'
+import GridLayout from './UI/Organisms/GridLayout'
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -8,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <Providers>
-      {children}
+      <GridLayout>
+        {children}
+      </GridLayout>
     </Providers>
   )
 }

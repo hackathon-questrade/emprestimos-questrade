@@ -10,7 +10,7 @@ export default function BasicButton({ children, href }) {
         fontSize={{ base: '12px', sm: '16px', md: '18px', lg: '20px' }}
         fontWeight='bold'
         bgGradient='linear(to-r, #3DA542 0%, #328636 100%)'
-        textColor='white'
+        textColor='text.100'
         rounded='full'
         transition="all 0.3s"
         padding="24px 64px"

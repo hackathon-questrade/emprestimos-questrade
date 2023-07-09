@@ -7,7 +7,7 @@ const { definePartsStyle, defineMultiStyleConfig } =
 
 const basic = definePartsStyle({
   field: {
-    color: 'text.100',
+    color: 'text.200', // change the input text color
     borderBottom: '2px',
     borderStyle: 'solid',
     borderColor: 'green.100',
