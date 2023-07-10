@@ -39,6 +39,7 @@ const Form = () => {
                 value={nome}
                 onChange={(event) => setNome(event.target.value)}
                 placeholder="Digite seu nome"
+                color="text.100"
               />
             </FormControl>
 
@@ -50,6 +51,7 @@ const Form = () => {
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
                 placeholder="Digite seu e-mail"
+                color="text.100"
               />
             </FormControl>
 
@@ -61,6 +63,7 @@ const Form = () => {
                 value={cpf}
                 onChange={(event) => setCpf(event.target.value)}
                 placeholder="Digite seu CPF"
+                color="text.100"
               />
             </FormControl>
 
@@ -72,11 +75,12 @@ const Form = () => {
                 value={valorDesejado}
                 onChange={(event) => setValorDesejado(event.target.value)}
                 placeholder="Digite o valor desejado"
+                color="text.100"
               />
             </FormControl>
           </Flex>
           <Flex w='full' justify='center'>
-            <BasicButton href="/" type="submit">
+            <BasicButton href="/oportunidades-de-credito" type="submit">
               Fazer simulação
             </BasicButton>
           </Flex>

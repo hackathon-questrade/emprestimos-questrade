@@ -23,7 +23,7 @@ export default function FileInput() {
       <label>
         Escolha a imagem
       </label>
-      <Input type="file" accept="image/*, .pdf" onChange={handleFileChange} />
+      <Input border="none" type="file" accept="image/*, .pdf" onChange={handleFileChange} />
       {fileUploaded
         ? <SentButton>Enviado</SentButton>
         : <BasicButton onClick={submitForm} type='submit'>Enviar imagem</BasicButton>
