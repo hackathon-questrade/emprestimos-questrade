@@ -1,35 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Serviço de Empréstimos Rápidos da Questrade Brasil
 
-## Getting Started
+Este projeto tem como objetivo fornecer um serviço de empréstimos rápidos com respostas instantâneas. Foi desenvolvido levando em consideração a análise detalhada do perfil do cliente e oferece taxas de juros competitivas, de acordo com o mercado financeiro de crédito brasileiro.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+O mercado financeiro de crédito no Brasil apresenta uma ampla variação de taxas de empréstimo pessoal, dependendo do banco, tipo de crédito e perfil do cliente. Segundo dados do Banco Central, a taxa média de juros para empréstimo pessoal em grandes bancos varia de 3,8% a 5,8% ao mês, equivalente a 141,52% ao ano. Já a taxa média para cheque especial é de 7,96% ao mês, ou 150,56% ao ano. Para autônomos, as taxas podem variar de 1,98% a 18,01% ao mês, dependendo da empresa.
+
+Com base nesses dados, nosso objetivo é oferecer um sistema de empréstimos que realize uma análise aprofundada do perfil do cliente, garantindo um processo rápido e transparente. Utilizamos o score de crédito, seguindo o padrão desenvolvido pelo Serasa, que atribui pontuações de 0 a 1000. Todas as pessoas com pontuação acima de 300 têm a possibilidade de obter algum tipo de crédito.
+
+Quanto maior for o score, maiores serão as ofertas e os prazos de pagamento disponíveis para o cliente.
+
+## Instalação do Projeto
+
+Siga as instruções abaixo para instalar e executar o projeto em sua máquina local:
+
+1. Clone o repositório:
+
+```shell
+git clone https://github.com/hackathon-questrade/emprestimos-questrade.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```shell
+npm install
+```
+ou
+```shell
+yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Execute o projeto:
 
-## Learn More
+```shell
+npm run dev
+```
+ou
+```shell
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Certifique-se de ter o Node.js e o npm (ou yarn) instalados em sua máquina antes de prosseguir com as etapas acima.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Agradecemos seu interesse em contribuir para o projeto. Se você deseja colaborar, siga as etapas abaixo:
 
-## Deploy on Vercel
+1. Faça um fork do repositório.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Crie uma nova branch:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# emprestimos-questrade
+```shell
+git checkout -b minha-nova-feature
+```
+
+3. Faça as alterações desejadas e adicione commits explicativos:
+
+```shell
+git commit -m "Adiciona nova feature: XYZ"
+```
+
+4. Envie as alterações para o repositório remoto:
+
+```shell
+git push origin minha-nova-feature
+```
+
+5. Abra um Pull Request no repositório original.
+
+Agradecemos antecipadamente suas contribuições!
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
+
+## Contato
+
+Se você tiver alguma dúvida ou sugestão em relação a este projeto, sinta-se à vontade para entrar em contato conosco:
+
+- E-mail: seu-email@exemplo.com
+- Twitter: [@exemplo](https://twitter.com/exemplo)
