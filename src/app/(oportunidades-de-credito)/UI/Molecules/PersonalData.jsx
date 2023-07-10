@@ -8,7 +8,7 @@ import FileInput from '../Atoms/FileInput'
 
 export default function PersonalData() {
   return (
-    <Flex direction='row'>
+    <Flex direction='row' flexWrap={{ base: 'wrap', md: 'nowrap' }} gap={{ base: 10, md: 2 }}>
       {steps.map((step) => (
         <Flex direction='column' flex={1} align='center' justify='center' gap={5} key={step.id}>
           <Icon

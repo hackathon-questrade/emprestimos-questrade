@@ -20,9 +20,6 @@ export default function FileInput() {
 
   return (
     <Flex direction='column' gap={5}>
-      <label>
-        Escolha a imagem
-      </label>
       <Input border="none" type="file" accept="image/*, .pdf" onChange={handleFileChange} />
       {fileUploaded
         ? <SentButton>Enviado</SentButton>
