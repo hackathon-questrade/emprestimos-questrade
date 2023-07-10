@@ -1,3 +1,5 @@
+'use client'
+
 import { Grid, GridItem } from '@chakra-ui/layout';
 import React from 'react';
 import Header from './Header';

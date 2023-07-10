@@ -1,3 +1,4 @@
+'use client'
 import { Grid, GridItem } from '@chakra-ui/layout';
 import React from 'react';
 import SideNav from '../Organisms/SideNav';
