@@ -78,5 +78,6 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
 
 Se você tiver alguma dúvida ou sugestão em relação a este projeto, sinta-se à vontade para entrar em contato conosco:
 
-- E-mail: seu-email@exemplo.com
-- Twitter: [@exemplo](https://twitter.com/exemplo)
+- E-mail: falacom.ocarlos@gmail.com
+- Linkedin: [Fala com o Carlos](https://www.linkedin.com/in/carloshenriquerp/)
+
