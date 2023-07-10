@@ -35,8 +35,8 @@ export default function DesktopNav() {
           {item.label}
         </Link>
       ))}
-      <BasicButton id="login" href='/'>
-        Login
+      <BasicButton id="login" href='/login'>
+        Sou cliente
       </BasicButton>
     </Wrapper>
   )
