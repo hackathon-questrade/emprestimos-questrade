@@ -9,13 +9,14 @@ export default function Card({ src, alt, h, w, prazo, amount, totalAmount, payme
   return (
     <Flex
       direction='column'
+      justify='center'
       align='center'
       rounded='md'
       color='text.100'
       bgColor="gray.200"
       py={8}
-      px={{ base: 8, md: 20 }}
-      mx={{ base: 2, sm: 0 }}
+      px={{ base: 8 }}
+      mx={{ base: 2, md: 5 }}
       gap={10}
     >
       <Flex gap={5}>

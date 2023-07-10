@@ -5,7 +5,7 @@ import { Options } from '../Atoms/Data/Credit'
 
 export default function Credits() {
   return (
-    <Flex>
+    <Flex flexWrap={{ base: 'wrap' }} justify='center' py={20} gap={{ base: 10, md: 5 }}>
       {Options.map((option) => (
         <Card
           key={option.id}
